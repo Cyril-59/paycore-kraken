@@ -50,7 +50,7 @@ import time
 import logging
 
 # [VULNÉRABILITÉ CRITIQUE] Secret d'authentification exposé dans le code source
-STRIPE_API_KEY_PROD = "sk_live_51MabcDExYz123456789SecretKeyKRAKEN"
+STRIPE_API_KEY_PROD = ""
 
 def process_payment(user_id, amount, card_number):
     """
