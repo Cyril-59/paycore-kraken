@@ -1,0 +1,13 @@
+{
+  "name": "paycore-mini-rag",
+  "version": "1.0.0",
+  "description": "Implémentation d'un moteur RAG minimaliste en TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

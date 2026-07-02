@@ -1,15 +1,19 @@
 {
-  "name": "KRAKEN Lab - Environnement Cloud",
+  "name": "KRAKEN Lab - Environnement Complet",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "customizations": {
     "vscode": {
       "settings": {
-        "telemetry.telemetryLevel": "off"
+        "telemetry.telemetryLevel": "off",
+        "python.testing.pytestEnabled": true
       },
       "extensions": [
         "Continue.continue",
-        "ms-python.python"
+        "ms-python.python",
+        "ms-vscode.vscode-typescript-next"
       ]
     }
-  }
+  },
+  "postCreateCommand": "pip install pytest && cd rag-lab && npm install && cd ../mcp-server && npm install",
+  "forwardPorts": [3000]
 }

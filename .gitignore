@@ -1,0 +1,27 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# IDE / éditeur
+.vscode/
+.idea/
+
+# Logs
+*.log

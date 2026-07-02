@@ -1,0 +1,4 @@
+Test_Realise;Prompt_Utilise;Latence_Sec;Risque_Securite_Detecte;Correction_Humaine_Requise;Enseignement
+1_Prompt_Vague;"Améliore ce code payment_gateway.py";;;;
+2_Prompt_Structure;"Refactorise avec @ai_assistant_rules.md";;;;
+3_Gen_Tests;"Génère les tests pour fraud_scoring.py";;;;
